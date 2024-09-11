@@ -47,6 +47,15 @@ const routers = [
         path: '/user-manage/productlist',
         component: ProductList
     },
+    {
+        path: '/',
+        redirect: '/index'
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: '',
+        component: () => import('@/views/404.vue')
+    }
 ]
 
 export default routers;
