@@ -44,7 +44,7 @@ const routers = [
         component: ProductAdd
     },
     {
-        path: '/user-manage/productlist',
+        path: '/product-manage/productlist',
         component: ProductList
     },
     {

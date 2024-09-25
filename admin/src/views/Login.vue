@@ -169,7 +169,6 @@
 // ************方式定义区域**************
     // 提交表单
     function handleLogin(){
-        localStorage.setItem('token', '123')
         //1、 校验表单
         loginFormRef.value.validate(valid => {
             if(valid){
